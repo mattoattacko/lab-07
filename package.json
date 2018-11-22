@@ -1,7 +1,7 @@
 {
   "name": "api-client",
   "version": "1.0.0",
-  "description": "",
+  "description": "![CF](http://i.imgur.com/7v5ASc8.png) LAB - CRUD\r ================================================",
   "main": "index.js",
   "scripts": {
     "lint": "eslint **/*.js",
@@ -9,7 +9,7 @@
     "test-watch": "jest --watchAll --verbose --coverage"
   },
   "keywords": [],
-  "author": "",
+  "author": "Matthew McQuain",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
@@ -18,5 +18,16 @@
     "jest": "^23.6.0",
     "superagent": "^4.0.0-beta.5",
     "supertest": "^3.3.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattoattacko/lab-07.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattoattacko/lab-07/issues"
+  },
+  "homepage": "https://github.com/mattoattacko/lab-07#readme"
 }
