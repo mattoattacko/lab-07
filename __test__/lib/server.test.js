@@ -5,7 +5,6 @@ const supertest = require('supertest');
 const mockRequest = supertest(server);
 
 describe('web server', () => {
-
   it('should respond with a 404 on an invalid route', () => {
     return mockRequest
       .get('/foo')
